@@ -1,0 +1,324 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.home-display h3{
+	animation: lights 5s 750ms linear infinite;
+	font-size: 60px;
+}
+
+.home-display a{
+	font-size: 1.2vw; 
+	margin-left: 40%;
+}
+
+h2{
+	text-align:center; 
+	letter-spacing:4px;
+}
+
+.set{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.set-info{
+	margin-top: 40px;
+}
+
+.tour-section ul{
+	padding-left:0;
+}
+
+.tour-date{
+	opacity:0.60;
+}
+
+.contacts{
+	padding:36px 16px;
+	margin: auto;
+	max-width:800px;
+}
+
+.city-photo{
+	height: 250px;
+	width:100%;
+	border-radius: inherit;
+}
+
+.about-section{
+	padding: 64px
+}
+
+.tour-section{
+	padding-top: 64px
+}
+
+.home-display{
+	position:absolute;
+	top:40%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+.black-section{
+	color:#fff;
+	background-color:#000;
+	width: 100%;
+}
+
+.tour-section{
+	width: 30vw;
+	display:table;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.table{
+	margin-top: 100px;
+	width: 40vw;
+}
+
+#carousel{
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+
+
+
+.table li{
+	padding:8px 16px;
+	border:1px solid #ccc;
+	color:#757575;
+	background-color:#fff;
+	list-style-type:none;
+}
+
+.button{
+	border:none;
+	display:inline-block;
+	padding:8px 16px;
+	margin-bottom:16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:#fff;
+	background-color:#000;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+}
+
+.tag{
+	background-color:#f44336;
+	color:#fff;
+	display:inline-block;
+	padding-left:8px;
+	padding-right:8px;
+	margin-left:16px;
+	text-align:center;
+	float: right;
+}
+
+.badge{
+	border-radius:30%;
+	float:right;
+	margin-right:16px;
+	padding-left:8px;
+	padding-right:8px;
+	background-color:#000000;
+	float: right;
+}
+
+h3 {
+	text-align: center;
+	color: whitesmoke;
+	text-transform: uppercase;
+	font-size: 6vw;
+	font-family: 'Zen Tokyo Zoo';
+	margin: 0
+}
+
+h5 {
+	text-align: center;
+	color: white;
+	font-size: 1.5vw;
+}
+
+.contacts-content{
+	display: flex;
+	padding-top:32px;
+	padding-bottom:32px
+}
+
+.contacts-info{
+	width: 50%;
+	font-size: 18px;
+	margin-bottom:16px;
+}
+
+.contacts-form{
+	width: 50%;
+	float: right;
+}
+
+form input{
+	margin: 4px 0;
+}
+
+.data-input{
+	padding:8px 0;
+	display:block;
+	border:1px solid #ccc;
+}
+  
+  .active {
+	background-color:transparent;
+  }
+  
+  .fade {
+	animation-name: fade;
+	animation-duration: 4s;
+  }
+  
+  @keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+
+  @keyframes lights {
+	0% {
+	  color: hsl(230, 40%, 80%);
+	  text-shadow:
+		0 0 1em hsla(320, 100%, 50%, 0.2),
+		0 0 0.125em hsla(320, 100%, 60%, 0.3),
+		-1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+		1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+	}
+	
+	30% { 
+	  color: hsl(230, 80%, 90%);
+	  text-shadow:
+		0 0 1em hsla(320, 100%, 50%, 0.5),
+		0 0 0.125em hsla(320, 100%, 60%, 0.5),
+		-0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+		0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+	}
+	
+	40% { 
+	  color: hsl(230, 100%, 95%);
+	  text-shadow:
+		0 0 1em hsla(320, 100%, 50%, 0.5),
+		0 0 0.125em hsla(320, 100%, 90%, 0.5),
+		-0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+		0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+	}
+	
+	70% {
+	  color: hsl(230, 80%, 90%);
+	  text-shadow:
+		0 0 1em hsla(320, 100%, 50%, 0.5),
+		0 0 0.125em hsla(320, 100%, 60%, 0.5),
+		0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+		-0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+	}
+	
+	100% {
+	  color: hsl(230, 40%, 80%);
+	  text-shadow:
+		0 0 1em hsla(320, 100%, 50%, 0.2),
+		0 0 0.125em hsla(320, 100%, 60%, 0.3),
+		1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+		-1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+	}
+	
+  }
+
+  .about-text {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .btn {
+	display: inline-block;
+	padding: 0.8rem 1.4rem;
+	font-weight: 700;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 1em;
+  }
+  
+  .btn-open {
+	position: absolute;
+	bottom: 150px;
+  }
+  
+  .btn-close {
+	transform: translate(10px, -20px);
+	padding: 0.5rem 0.7rem;
+	background: #eee;
+	border-radius: 50%;
+  }
+  
+  .overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(3px);
+	z-index: 1;
+  }
+  
+  .hidden {
+	display: none;
+  }
+
+  .card{
+    width: 20vw;
+}
+
+@media screen and (max-width: 700px) {
+    .card{
+        width: 80vw;
+    }
+
+	.home-display{
+		position:absolute;
+		top:20%;
+		left:50%;
+		transform:translate(-50%,-50%);
+	}
+
+	.home-display h5{
+		font-size: 16px;
+	}
+
+	.contacts-info i{
+		font-size: 16px;
+	}
+
+	.home-display h3{
+		animation: lights 5s 750ms linear infinite;
+		font-size: 40px;
+	}
+
+	.home-display a{
+		font-size: 2vw; 
+	}
+
+	.nav-item a{
+		font-size: 16px;
+	}
+
+	.set-info{
+		font-size: 8px;
+	}
+}
